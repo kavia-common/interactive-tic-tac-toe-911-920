@@ -186,7 +186,7 @@ function App() {
           winningLine={winningLine}
         />
         <div className="ttt-controls">
-          <button className="ttt-btn" onClick={handleRestart}>
+          <button className="ttt-btn ttt-btn--red" onClick={handleRestart}>
             Restart Game
           </button>
         </div>

@@ -171,6 +171,22 @@ body, .App {
     box-shadow 0.21s;
 }
 
+.ttt-btn--red {
+  background: #d32f2f;
+  color: #fff;
+}
+
+.ttt-btn--red:hover {
+  background: #b71c1c;
+  color: #fff;
+  transform: translateY(-1.5px) scale(1.035);
+  box-shadow: 0 4px 24px rgba(211, 47, 47, 0.13);
+}
+
+.ttt-btn--red:active {
+  background: #930909;
+}
+
 .ttt-btn:hover {
   background: var(--accent);
   color: var(--secondary);
